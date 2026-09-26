@@ -5,6 +5,7 @@
 ![Pandas](https://img.shields.io/badge/Library-Pandas-150458?logo=pandas&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/BI-Power%20BI-F2C811?logo=powerbi&logoColor=black)
+![Documentation](https://img.shields.io/badge/Report-10--Page%20PDF-red?logo=adobeacrobatreader&logoColor=white)
 ![Dataset](https://img.shields.io/badge/Dataset-52K%20Records-success)
 
 ---
@@ -15,6 +16,7 @@
 * **Domain:** Banking & Financial Services / Credit Risk Analytics
 * **Tools & Technologies:** Python (Pandas), MySQL, Microsoft Power BI (DAX), WPS Office
 * **Dataset Scale:** 52,000 Historical Loan Applications
+* **Full Technical Documentation:** 📄 [Download / View 10-Page Master Case Study Report (PDF)](Loan_Approval_docs.pdf)
 
 ---
 
@@ -28,22 +30,15 @@ Financial lending institutions face the continuous challenge of expanding their 
 * **Operational Parity:** Do factors like employment classification, existing loans, or outstanding debt significantly separate approvals from rejections?
 
 ---
-[ Raw CSV (52K) ]
-│
-▼ (Python / Pandas)
-[ Data Ingestion, Hygiene & Schema Auditing ]
-│
-▼ (SQLAlchemy / PyMySQL)
-[ Relational Ingestion into MySQL Database ]
-│
-▼ (MySQL Query Engine)
-[ 12 Business-Driven SQL Analytics (CTEs, Window Ranking, Aggregations) ]
-│
-▼ (Power BI & DAX)
-[ Interactive Risk Intelligence Dashboard ]
-│
-▼ (Executive Strategy)
-[ Data-Driven Recommendations & Underwriting Insights ]
+
+## ⚙️ 3. Analytical Pipeline & Architecture
+
+* **1. Data Ingestion & Hygiene (Python/Pandas):** Audited the 52,000 raw application dataset, validated schema data types, and confirmed zero null or duplicate records.
+* **2. Relational Ingestion (SQLAlchemy/PyMySQL):** Programmatically exported and structured cleaned DataFrames into a production MySQL schema.
+* **3. SQL Business Analytics (MySQL):** Formulated and solved 12 core business queries utilizing aggregations, window ranking (DENSE_RANK), and CTEs.
+* **4. Interactive BI Intelligence (Power BI & DAX):** Designed an executive dark-themed analytics dashboard featuring customized DAX measures, dynamic KPI summaries, and automated risk color cues.
+* **5. Strategic Framework & Technical Report:** Authored a comprehensive 10-page analytical report detailing methodology, SQL findings, and strategic underwriting recommendations.
+
 ---
 
 ## 📊 4. Interactive Power BI Dashboard
@@ -79,21 +74,17 @@ Financial lending institutions face the continuous challenge of expanding their 
 ---
 
 ## 📂 7. Repository Structure & Deliverables
-├── cleaned_loan_approval.csv          # Cleaned & validated dataset (52K records)
-├── Loan Dataset.csv                  # Raw source application data
-├── loan_approval_pandas.ipynb        # Data audit, cleaning & MySQL ingestion pipeline
-├── loan_approval_sql_analysis.ipynb  # 12 Business SQL queries & CTE/window implementations
-├── loan_approval.pbix                # Interactive Power BI report with DAX measures
-├── loan_approval_dashboard.png       # Executive dashboard visual export
-└── Loan_Approval_docs.pdf            # 10-page master technical documentation
+* 📄 **[Loan_Approval_docs.pdf](Loan_Approval_docs.pdf)** — **10-Page Master Technical Case Study & Documentation** (Created with WPS Office)
+* 📊 **`loan_approval.pbix`** — Interactive Power BI Dashboard source file with DAX measures
+* 🖼️ **`loan_approval_dashboard.png`** — High-resolution Executive Dashboard visual export
+* 🐍 **`loan_approval_pandas.ipynb`** — Python data cleaning, hygiene audit & MySQL ingestion pipeline
+* 🗄️ **`loan_approval_sql_analysis.ipynb`** — 12 Business SQL queries & CTE/window implementations
+* 🧹 **`cleaned_loan_approval.csv`** — Preprocessed & validated dataset ready for analytics (52K records)
+* 📁 **`Loan Dataset.csv`** — Original raw loan application source data
+
 ---
 
-## 🛠️ How to Replicate This Analysis
+## 🛠️ 8. How to Replicate This Analysis
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git](https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git)
-   ​Execute Python Pipeline: Run loan_approval_pandas.ipynb to clean data and create the relational table in your local MySQL instance.
-​Run SQL Scripts: Execute loan_approval_sql_analysis.ipynb to review business query results.
-​Open Dashboard: Launch loan_approval.pbix in Microsoft Power BI Desktop to interact with the visualizations.
-## ⚙️ 3. Analytical Pipeline & Architecture
-The project follows an end-to-end data analytics lifecycle:
