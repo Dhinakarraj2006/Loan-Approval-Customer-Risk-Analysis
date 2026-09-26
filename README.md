@@ -75,22 +75,18 @@ Financial lending institutions face the continuous challenge of expanding their 
 
 ## 📂 7. Repository Structure & Deliverables
 
-* 📄 **[Loan_Approval_docs.pdf](Loan_Approval_docs.pdf)** — 10-Page Master Technical Case Study & Documentation
-* 📊 **`loan_approval.pbix`** — Interactive Power BI Dashboard source file with DAX measures
-* 🖼️ **`loan_approval_dashboard.png`** — High-resolution Executive Dashboard visual export
-* 🐍 **`loan_approval_pandas.ipynb`** — Python data cleaning, hygiene audit & MySQL ingestion pipeline
-* 🗄️ **`loan_approval_sql_analysis.ipynb`** — 12 Business SQL queries & CTE/window implementations
-* 🧹 **`cleaned_loan_approval.csv`** — Preprocessed & validated dataset ready for analytics (52K records)
-* 📁 **`Loan Dataset.csv`** — Original raw loan application source data
+📄 **[Loan_Approval_docs.pdf](Loan_Approval_docs.pdf)** — 10-Page Master Technical Case Study & Documentation (WPS Office)  
+📊 **`loan_approval.pbix`** — Interactive Power BI Dashboard source file with DAX measures  
+🖼️ **`loan_approval_dashboard.png`** — High-resolution Executive Dashboard visual export  
+🐍 **`loan_approval_pandas.ipynb`** — Python data cleaning, hygiene audit & MySQL ingestion pipeline  
+🗄️ **`loan_approval_sql_analysis.ipynb`** — 12 Business SQL queries & CTE/window implementations  
+🧹 **`cleaned_loan_approval.csv`** — Preprocessed & validated dataset ready for analytics (52K records)  
+📁 **`Loan Dataset.csv`** — Original raw loan application source data  
 
 ---
 
 ## 🛠️ 8. How to Replicate This Analysis
 
-1. **Clone the Repository:**
+**1. Clone the Repository:**
 ```bash
 git clone [https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git](https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git)
-​Execute Python Pipeline: Run loan_approval_pandas.ipynb to clean data and create the relational table in your local MySQL instance.
-​Run SQL Scripts: Execute loan_approval_sql_analysis.ipynb to review business query results.
-​Open Dashboard: Launch loan_approval.pbix in Microsoft Power BI Desktop to interact with the visualizations.
-​Read Case Study: Open Loan_Approval_docs.pdf to review the complete 10-page analytical methodology and strategic findings.
