@@ -81,19 +81,22 @@ Financial lending institutions face the continuous challenge of expanding their 
 - **Loan Dataset.csv** — Original raw loan application source data
 
 ---
-
 ## 🛠️ 8. How to Replicate This Analysis
 
 1. **Clone the Repository:**
-```bash
-git clone [https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git](https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git)
-​Clean Data & Ingest into Database:
-2.Run loan_approval_pandas.ipynb to clean data and create the relational table in your local MySQL instance.
-​Run SQL Queries:
-3.Execute loan_approval_sql_analysis.ipynb to review the 12 business query implementations and results.
-​Explore Interactive Dashboard:
-4.Launch loan_approval.pbix in Microsoft Power BI Desktop to interact with the slicers and risk metrics.
-​Review Master Documentation:
-5.Open Loan_Approval_docs.pdf to read the complete 10-page analytical report.
+[https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git](https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git)
+
+2. **Clean Data & Ingest into Database:**  
+Run `loan_approval_pandas.ipynb` to clean data and create the relational table in your local MySQL instance.
+
+3. **Run SQL Queries:**  
+Execute `loan_approval_sql_analysis.ipynb` to review the 12 business query implementations and results.
+
+4. **Explore Interactive Dashboard:**  
+Launch `loan_approval.pbix` in Microsoft Power BI Desktop to interact with the slicers and risk metrics.
+
+5. **Review Master Documentation:**  
+Open `Loan_Approval_docs.pdf` to read the complete 10-page analytical report.
+
 ---
 
