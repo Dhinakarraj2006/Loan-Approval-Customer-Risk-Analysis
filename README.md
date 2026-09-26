@@ -87,4 +87,8 @@ Financial lending institutions face the continuous challenge of expanding their 
 ## 🛠️ 8. How to Replicate This Analysis
 1. **Clone the Repository:**
    ```bash
+​2. Execute Python Pipeline: Run loan_approval_pandas.ipynb to clean data and create the relational table in your local MySQL instance.
+​3.Run SQL Scripts: Execute loan_approval_sql_analysis.ipynb to review business query results.
+​4.Open Dashboard: Launch loan_approval.pbix in Microsoft Power BI Desktop to interact with the visualizations.
+​5.Read Case Study: Open Loan_Approval_docs.pdf to review the complete 10-page analytical methodology and strategic findings.
    git clone [https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git](https://github.com/Dhinakarraj2006/Loan-Approval-Customer-Risk-Analysis.git)
